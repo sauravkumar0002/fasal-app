@@ -5,11 +5,13 @@ const nextConfig = {
     domains: ['localhost', 'minio'],
     unoptimized: true, // For static export if needed
   },
-  // Enable i18n
-  i18n: {
-    locales: ['en', 'hi'],
-    defaultLocale: 'en',
-  },
+  // Temporarily disable i18n routing to fix 404
+  // i18n: {
+  //   locales: ['en', 'hi'],
+  //   defaultLocale: 'en',
+  // },
+  // Output configuration
+  output: 'standalone',
 };
 
 module.exports = nextConfig;
