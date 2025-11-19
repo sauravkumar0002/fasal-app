@@ -3,15 +3,10 @@ const nextConfig = {
   reactStrictMode: true,
   images: {
     domains: ['localhost', 'minio'],
-    unoptimized: true, // For static export if needed
+    unoptimized: true,
   },
-  // Temporarily disable i18n routing to fix 404
-  // i18n: {
-  //   locales: ['en', 'hi'],
-  //   defaultLocale: 'en',
-  // },
-  // Output configuration
-  output: 'standalone',
+  // Remove i18n routing - using react-i18next instead
+  // This prevents Next.js routing conflicts
 };
 
 module.exports = nextConfig;
