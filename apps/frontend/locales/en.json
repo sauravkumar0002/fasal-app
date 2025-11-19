@@ -1,0 +1,70 @@
+{
+  "common": {
+    "welcome": "Welcome",
+    "login": "Login",
+    "signup": "Sign Up",
+    "logout": "Logout",
+    "scan": "Scan Crop",
+    "dashboard": "Dashboard",
+    "history": "History",
+    "community": "Community",
+    "products": "Products",
+    "insurance": "Insurance",
+    "admin": "Admin",
+    "language": "Language"
+  },
+  "hero": {
+    "title": "Detect Crop Diseases in Under 60 Seconds",
+    "subtitle": "AI-powered disease detection for farmers. Upload a photo and get instant diagnosis with treatment recommendations.",
+    "cta": "Start Scanning",
+    "features": {
+      "fast": "Fast Detection",
+      "accurate": "Accurate Results",
+      "treatment": "Treatment Guide",
+      "community": "Community Support"
+    }
+  },
+  "scan": {
+    "title": "Scan Your Crop",
+    "upload": "Upload Image",
+    "camera": "Take Photo",
+    "processing": "Processing...",
+    "result": "Detection Result",
+    "disease": "Disease",
+    "confidence": "Confidence",
+    "healthScore": "Health Score",
+    "treatment": "Recommended Treatment",
+    "buyInputs": "Buy Inputs",
+    "save": "Save Scan"
+  },
+  "dashboard": {
+    "title": "My Dashboard",
+    "recentScans": "Recent Scans",
+    "healthTimeline": "Health Timeline",
+    "weeklyScore": "Weekly Health Score"
+  },
+  "auth": {
+    "loginTitle": "Login to Fasal Rakshak",
+    "signupTitle": "Create Account",
+    "phone": "Phone Number",
+    "email": "Email",
+    "password": "Password",
+    "name": "Full Name",
+    "otp": "OTP",
+    "sendOtp": "Send OTP",
+    "verifyOtp": "Verify OTP",
+    "forgotPassword": "Forgot Password?",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?"
+  },
+  "errors": {
+    "required": "This field is required",
+    "invalidEmail": "Invalid email address",
+    "invalidPhone": "Invalid phone number",
+    "passwordMin": "Password must be at least 6 characters",
+    "loginFailed": "Login failed. Please check your credentials.",
+    "uploadFailed": "Failed to upload image. Please try again."
+  }
+}
+
+
