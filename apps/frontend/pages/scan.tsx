@@ -20,7 +20,7 @@ export default function Scan() {
     if (!token) {
       router.push('/login');
     }
-  }, []);
+  }, [router]);
 
   const handleFileSelect = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
@@ -95,6 +95,7 @@ export default function Scan() {
                     className="w-full py-4 border-2 border-dashed border-gray-300 rounded-lg hover:border-primary-500 transition-colors"
                   >
                     {preview ? (
+                      // eslint-disable-next-line @next/next/no-img-element
                       <img src={preview} alt="Preview" className="max-h-64 mx-auto rounded" />
                     ) : (
                       <div className="text-center">
@@ -126,6 +127,7 @@ export default function Scan() {
                 <div className="text-center">
                   <h2 className="text-2xl font-bold mb-4">{t('scan.result')}</h2>
                   {preview && (
+                    // eslint-disable-next-line @next/next/no-img-element
                     <img src={preview} alt="Scanned" className="max-w-full h-auto rounded-lg mb-4" />
                   )}
                 </div>
